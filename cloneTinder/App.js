@@ -8,8 +8,6 @@ import { Feather } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 
-
-
 const image = { uri: "https://i.ibb.co/MsMPtY3/1.jpg" };
 
 const App = () => (
@@ -23,9 +21,7 @@ const App = () => (
       <Text style={{backgroundColor:'black', color:'white', paddingBottom:30, opacity:0.9}}> <Fontisto name="undo" size={40} color="white" />       <Feather name="x" size={50} color="red" />      <MaterialIcons name="stars" size={40} color="blue" />      <Ionicons name="md-heart-circle-outline" size={50} color="aqua"/>       <MaterialCommunityIcons name="lightning-bolt" size={40} color="purple" />
       </Text>
       <View style={{flex: 1}}>
-    
-         
-    <View style={{position: 'absolute', left: 0, right: 0, bottom: 0, backgroundColor: 'white', paddingTop: 10}}><Text>      <FontAwesome5 name="fire" size={18} color="red" />               <FontAwesome5 name="star-of-life" size={18} color="grey" />             <MaterialCommunityIcons name="message" size={18} color="grey" />              <Entypo name="user" size={18} color="grey" /> </Text></View>
+      <View style={{position: 'absolute', left: 0, right: 0, bottom: 0, backgroundColor: 'white', paddingTop: 10}}><Text>      <FontAwesome5 name="fire" size={18} color="red" />               <FontAwesome5 name="star-of-life" size={18} color="grey" />             <MaterialCommunityIcons name="message" size={18} color="grey" />              <Entypo name="user" size={18} color="grey" /> </Text></View>
 </View>
     </ImageBackground>
   </View>
