@@ -1,25 +1,24 @@
 import "react-native-gesture-handler";
 import React from "react";
-import { ImageBackground, StyleSheet, Text, View, Button } from "react-native";
+import { ImageBackground, StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { FontAwesome5 } from "@expo/vector-icons";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { Entypo } from "@expo/vector-icons";
-import { Fontisto } from "@expo/vector-icons";
-import { Feather } from "@expo/vector-icons";
-import { MaterialIcons } from "@expo/vector-icons";
-import { Ionicons } from "@expo/vector-icons";
-import Perfil from "./components/Perfil.js";
+import { FontAwesome5, 
+  MaterialCommunityIcons, 
+  Entypo, 
+  Fontisto, 
+  Feather, 
+  MaterialIcons, 
+  Ionicons  } from "@expo/vector-icons";
+import Perfil from "./components/perfil/perfil/Perfil.js";
 
 const image = { uri: "https://i.ibb.co/MsMPtY3/1.jpg" };
-
 const Stack = createStackNavigator();
 
 const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <ImageBackground source={image} style={styles.image}>
+      <ImageBackground source={image} style={styles.container}>
         <Text style={{ top: 50, marginLeft:130 }}>
           {" "}
           <Entypo name="dots-three-horizontal" size={24} color="white" />
